@@ -1,0 +1,6 @@
+venv\Scripts\activate.bat
+
+python manage.py runserver
+
+. venv/bin/activate
+cd Library
