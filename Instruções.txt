@@ -15,7 +15,7 @@ Por meio da API, você poderá usar os métodos GET para buscar livros, POST par
 
 Comandos:
 *No Computador Ou Máquina Local
-Dentro do diretório do sistema Django, abra o Cmd
+Dentro do diretório do sistema Django, abra o CMD(Prompt de Comando)
 Usando o pip
 Executará os comandos:
 "pip install django djangorestframework"
