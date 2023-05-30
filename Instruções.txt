@@ -1,0 +1,25 @@
+
+REPLIT
+https://replit.com/join/bhzppuslde-lucasryumuraoka
+
+Acesse o Replit e entre pelo link privado fornecido no black board ou o link acima.
+
+Após clicar no link, você será redirecionado para a interface do Replit. No console, clique na opção "Shell" para abrir o terminal embutido.
+
+No terminal, digite o comando "cd Library" para navegar até o diretório do projeto.
+
+Em seguida, inicialize o servidor Django executando o comando "python manage.py runserver 0.0.0.0:8000".
+
+Após executar o comando acima, no web view será aberto um "Book" com o endereço HTTP do site. Copie o link e cole-o em um navegador da web. Isso abrirá a API Django, proporcionando acesso ao sistema de livros.
+
+Por meio da API, você poderá usar os métodos GET para buscar livros, POST para adicionar livros e também realizar modificações e exclusões usando o ID do livro concatenado à URL correspondente. Além disso, há também a opção "Option" disponível para mostrar o tipos dos dados.
+
+Comandos:
+No Computador Ou Máquina Local
+venv\Scripts\activate.bat
+python manage.py runserver
+. venv/bin/activate
+
+No Replit
+cd Library
+python manage.py runserver 0.0.0.0:8000
