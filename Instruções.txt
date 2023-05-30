@@ -1,4 +1,3 @@
-
 REPLIT
 https://replit.com/join/bhzppuslde-lucasryumuraoka
 
@@ -15,11 +14,19 @@ Após executar o comando acima, no web view será aberto um "Book" com o endere�
 Por meio da API, você poderá usar os métodos GET para buscar livros, POST para adicionar livros e também realizar modificações e exclusões usando o ID do livro concatenado à URL correspondente. Além disso, há também a opção "Option" disponível para mostrar o tipos dos dados.
 
 Comandos:
-No Computador Ou Máquina Local
-venv\Scripts\activate.bat
-python manage.py runserver
-. venv/bin/activate
+*No Computador Ou Máquina Local
+Dentro do diretório do sistema Django
+Usando o pip
+Executará os comandos:
+"pip install django djangorestframework"
 
-No Replit
-cd Library
-python manage.py runserver 0.0.0.0:8000
+"venv\Scripts\activate.bat"
+ou
+". venv/bin/activate"
+
+"python manage.py runserver"
+
+
+*No Replit
+"cd Library"
+"python manage.py runserver 0.0.0.0:8000"
