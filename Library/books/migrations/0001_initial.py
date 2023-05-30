@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Books',
             fields=[
-                ('idBook', models.UUIDField(default=uuid.UUID('74e03e2b-eae9-4866-98c8-78e98da8105a'), editable=False, primary_key=True, serialize=False)),
+                ('idBook', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
                 ('title', models.CharField(max_length=255)),
                 ('author', models.CharField(max_length=255)),
                 ('releaseYear', models.IntegerField()),
